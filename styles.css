@@ -1,0 +1,41 @@
+html {
+    background-image: linear-gradient(-20deg, #310115 0%, #70031a 100%);
+    height: 100%;
+}
+
+
+.headline {
+    text-align: center;
+    color: white;
+}
+
+.trafikklys {
+    background-color: grey;
+    height: 500px;
+    width: 300px;
+    margin: 0 auto;
+    border: 2px solid black;
+    box-shadow: 7px 7px 7px black;
+}
+
+.trafikklys > div {
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 100%;
+    background-color: white;
+    margin-top: 12px;
+}
+
+.knapper {
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.knapper > button {
+    height: 60px;
+    width: 100px;
+    background-color: darkred;
+}
